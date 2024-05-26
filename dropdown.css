@@ -1,0 +1,26 @@
+.container {
+    background-color: rgb(246, 24, 24);
+    padding: 11px 25px;
+    display: inline-block;
+    position: relative;
+    width:100px;
+    text-align: center;
+}
+.dropdown{
+    display:none;
+    position:absolute;
+    padding-top: 20px;
+    
+}
+.container:hover .dropdown{
+    display: block;
+    
+}
+.dropdown .container {
+    transition-duration: 5s;
+    background-color: rgb(28, 32, 236);
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
